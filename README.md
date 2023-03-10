@@ -6,8 +6,8 @@
 **Therefore, the suggestion channel is closed.**  
 **Only questions and bug reports are accepted.**  
 
-⚠ We do not provide support outside of the Discord.  
-⚠ Please do not ask questions on Github.  
+> We do not provide support outside of the Discord.  
+> Please do not ask questions on Github.  
 
 Discord: https://discord.com/invite/eJtRwnhxdY
 ## About Development
