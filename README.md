@@ -2,9 +2,8 @@
 **Minecraft Java Edition 1.7.10 &amp; 1.8.9 PvP Client.**  
 **This client supports Forge and can use Replay Mod, Skyblock Addon, etc.**
 ## About Support
-![#c5f015](https://placehold.it/15/c5f015/000000?text=WARNING)
-We do not provide support outside of the Discord.  
-Please do not ask questions on Github.  
+⚠ We do not provide support outside of the Discord.  
+⚠ Please do not ask questions on Github.  
 
 Discord: https://discord.com/invite/eJtRwnhxdY
 
