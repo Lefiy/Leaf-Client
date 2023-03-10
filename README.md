@@ -5,6 +5,10 @@
 ⚠ We do not provide support outside of the Discord.  
 ⚠ Please do not ask questions on Github.  
 
+**Leaf Client is no longer under development.
+Therefore, the suggestion channel is closed.
+Only questions and bug reports are accepted.**
+
 Discord: https://discord.com/invite/eJtRwnhxdY
 
 # Images
