@@ -17,10 +17,10 @@ The following libraries were used in the development.
 - Discord RPC: https://github.com/Vatuu/discord-rpc
 - Hypixel API: https://github.com/mdashlw/hypixel-api
 - MongoDB Driver: https://github.com/mongodb/mongo-java-driver
-- Jackson: [Annotations](https://github.com/FasterXML/jackson-annotations), [Core](https://github.com/FasterXML/jackson-core), [Databind](https://github.com/FasterXML/jackson-databind)
-- Okhttp: [Okio](https://github.com/square/okio), [Okhttp](https://github.com/square/okhttp)
 - Spring Security: https://github.com/spring-projects/spring-security
 - Jlayer: https://github.com/mahozad/jlayer
+- Jackson: [Annotations](https://github.com/FasterXML/jackson-annotations), [Core](https://github.com/FasterXML/jackson-core), [Databind](https://github.com/FasterXML/jackson-databind)
+- Okhttp: [Okio](https://github.com/square/okio), [Okhttp](https://github.com/square/okhttp)
 
 ## Images
 ![Main Screen](images/titlescreen.png)
