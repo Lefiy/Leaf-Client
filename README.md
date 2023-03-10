@@ -2,12 +2,12 @@
 **Minecraft Java Edition 1.7.10 &amp; 1.8.9 PvP Client.**  
 **This client supports Forge and can use Replay Mod, Skyblock Addon, etc.**
 ## About Support
-[!] We do not provide support outside of the Discord.  
-[!] Please do not ask questions on Github.  
-
 **Leaf Client is no longer under development.**  
 **Therefore, the suggestion channel is closed.**  
 **Only questions and bug reports are accepted.**  
+
+⚠ We do not provide support outside of the Discord.  
+⚠ Please do not ask questions on Github.  
 
 Discord: https://discord.com/invite/eJtRwnhxdY
 ## Libraries
