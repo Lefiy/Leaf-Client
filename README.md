@@ -34,6 +34,10 @@ The following sites were used to create the design.
 - Vecteezy: https://www.vecteezy.com/
 - Pixlr: https://pixlr.com/
 
+## License
+
+*GNU GENERAL PUBLIC LICENSE 3.0*
+
 ## Images
 ![Main Screen](images/titlescreen.png)
 ![Passward Screen](images/passward.png)
