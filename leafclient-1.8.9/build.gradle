@@ -1,0 +1,98 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url 'https://repo.spongepowered.org/maven' }
+        maven { url 'https://files.minecraftforge.net/maven' }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle.tweaker-client'
+apply plugin: 'org.spongepowered.mixin'
+apply plugin: 'java'
+
+version = "1.0.0"
+group= "com.leafclient"
+archivesBaseName = "leafclient"
+
+sourceCompatibility = targetCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+minecraft {
+    version = "1.8.9"
+    tweakClass = "com.leafclient.mixins.LeafClientTweaker"
+    runDir = "run"
+    mappings = "stable_22"
+    makeObfSourceJar = true
+}
+
+mixin {
+    defaultObfuscationEnv notch
+    sourceSets {
+        main {
+            ext.refMap = 'mixins.leafclient.refmap.json'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://repo.spongepowered.org/maven'
+    }
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+configurations {
+    embed
+    compile.extendsFrom embed
+}
+
+dependencies {
+    embed('org.spongepowered:mixin:0.7.11-SNAPSHOT') {
+        exclude module: 'launchwrapper'
+        exclude module: 'guava'
+        exclude module: 'gson'
+        exclude module: 'commons-io'
+    }
+    compile('org.spongepowered:mixin:0.7.11-SNAPSHOT')
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+
+        expand 'version': project.version, 'mcversion': project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+
+jar {
+
+    from(configurations.embed.collect {
+        it.isDirectory() ? it : zipTree(it)
+    }) {
+        exclude 'META-INF/MUMFREY.RSA',
+                'META-INF/maven/**',
+                'org/**/*.html'
+    }
+    manifest.attributes(
+            "MixinConfigs": 'mixins.leafclient.json',
+            "TweakClass": "com.leafclient.mixins.LeafClientTweaker",
+            "TweakOrder": 0,
+            "Manifest-Version": 1.0
+    )
+}
