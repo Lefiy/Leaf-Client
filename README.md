@@ -1,4 +1,4 @@
-# 🍃 Leaf Client (1.7.10 - 1.8.9)
+# Leaf Client (1.7.10 - 1.8.9)
 **Minecraft Java Edition 1.7.10 &amp; 1.8.9 PvP Client.**  
 **This client supports Forge and can use Replay Mod, Skyblock Addon, etc.**
 ## About Support
