@@ -1,0 +1,16 @@
+[
+{
+  "modid": "leafclient",
+  "name": "Leaf Client",
+  "description": "Minecraft PvP Client",
+  "version": "1.0.0",
+  "mcversion": "1.8.9",
+  "url": "https://discord.gg/eJtRwnhxdY",
+  "updateUrl": "https://github.com/MC-LEAF",
+  "authorList": ["Lefiy"],
+  "credits": "",
+  "logoFile": "https://raw.githubusercontent.com/Lefiy/Lefiy/main/Leaf.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
