@@ -10,7 +10,7 @@
 ⚠ Please do not ask questions on Github.  
 
 Discord: https://discord.com/invite/eJtRwnhxdY
-## Dev Info
+## About Development
 ### Libraries
 The following libraries were used in the development.  
 
@@ -27,6 +27,12 @@ The following libraries were used in the development.
 The following code was used for development.  
 
 - Font Renderer: [Quickdaffy's Font Renderer](https://www.youtube.com/watch?v=w0hHF2wMBB0&t=105s)
+
+## About Design
+The following sites were used to create the design.  
+
+- Vecteezy: https://www.vecteezy.com/
+- Pixlr: https://pixlr.com/
 
 ## Images
 ![Main Screen](images/titlescreen.png)
