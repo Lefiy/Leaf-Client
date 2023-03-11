@@ -27,8 +27,8 @@ The following libraries were used in the development.
 
 #### Launcher:
 
-- Spring Security: https://github.com/spring-projects/spring-security
 - Apache Commons: [Commons-IO](https://github.com/apache/commons-io), [Commons-Codec](https://github.com/apache/commons-codec), [Commons-Logging](https://github.com/apache/commons-logging)
+- Spring Security: https://github.com/spring-projects/spring-security
 - Jackson: [Annotations](https://github.com/FasterXML/jackson-annotations), [Core](https://github.com/FasterXML/jackson-core), [Databind](https://github.com/FasterXML/jackson-databind)
 
 ### Used Code
