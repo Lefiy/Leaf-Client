@@ -14,6 +14,8 @@ Discord: https://discord.com/invite/eJtRwnhxdY
 ### Libraries
 The following libraries were used in the development.  
 
+#### Client:
+
 - Openauth: https://github.com/Litarvan/OpenAuth
 - Discord RPC: https://github.com/Vatuu/discord-rpc
 - Hypixel API: https://github.com/mdashlw/hypixel-api
@@ -22,6 +24,12 @@ The following libraries were used in the development.
 - Jlayer: https://github.com/mahozad/jlayer
 - Jackson: [Annotations](https://github.com/FasterXML/jackson-annotations), [Core](https://github.com/FasterXML/jackson-core), [Databind](https://github.com/FasterXML/jackson-databind)
 - Okhttp: [Okio](https://github.com/square/okio), [Okhttp](https://github.com/square/okhttp)
+
+#### Launcher:
+
+- Spring Security: https://github.com/spring-projects/spring-security
+- Apache Commons: [Commons-IO](https://github.com/apache/commons-io), [Commons-Codec](https://github.com/apache/commons-codec), [Commons-Logging](https://github.com/apache/commons-logging)
+- Jackson: [Annotations](https://github.com/FasterXML/jackson-annotations), [Core](https://github.com/FasterXML/jackson-core), [Databind](https://github.com/FasterXML/jackson-databind)
 
 ### Used Code
 The following code was used for development.  
