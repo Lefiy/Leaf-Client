@@ -1,0 +1,34 @@
+en-lang-done:DONE
+jp-lang-done:完了
+en-lang-select:Select Language
+jp-lang-select:言語の選択
+en-lang-select-1:Welcome to LeafClient !
+jp-lang-select-1:リーフクライアントへようこそ！
+en-lang-select-2:Let's setup before you start playing.
+jp-lang-select-2:プレイする前にセットアップをしましょう。
+en-lang-select-3:Choose the language you prefer.
+jp-lang-select-3:あなたの好きな言語を選んでください。
+en-pass:Enter Launcher Password
+jp-pass:ランチャーパスワードの入力
+en-pass-1:Enter a complex and memorable password.
+jp-pass-1:複雑で覚えられるパスワードを入力してください。
+en-pass-2:Information can be protected in the event of theft of launcher data.
+jp-pass-2:ランチャーのデータが盗難された際に情報を保護できます。
+en-pass-3:The password created here will be asked when the client is launched.
+jp-pass-3:ここで作成したパスワードはクライアント起動時に問われます。
+en-menu-1:PLAY
+jp-menu-1:プレイ
+en-menu-2:VERSION
+jp-menu-2:バージョン
+en-menu-3:SETTING
+jp-menu-3:設定
+en-version:Select Version
+jp-version:バージョンの選択
+en-version-1:Select the version you want to play.
+jp-version-1:プレイするバージョンを選択してください。
+en-version-2:Optifine alone and Forge can be used as the runtime environment.
+jp-version-2:実行環境としてオプティファイン単体とフォージが使用できます。
+en-version-3:If you select a Forge, you can choose a mod to include.
+jp-version-3:フォージを選択した場合は導入するモッドを選ぶことができます。
+en-ram:Memory Uses
+jp-ram:メモリの割り当て
