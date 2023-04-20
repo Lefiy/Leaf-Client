@@ -58,14 +58,14 @@ Click "Import Project" and select gradle import.
 ![Import](images/import.png)
 
 Set "Project Root Directory" like this.  
-**AND CLICK "NEXT" DONT NOT CLICK "FINISH" !!**  
+**AND CLICK "NEXT" DO NOT CLICK "FINISH" !!**  
 
 ![Import](images/root.png)
 
 Set "Import Options" like this.  
 Please use Java 8.  
-Gradle 4.7 will probably work with 8.  
-**AND CLICK "NEXT" DONT NOT CLICK "FINISH" !!**  
+Gradle 4.7 will probably work with Java 8.  
+**AND CLICK "NEXT" DO NOT CLICK "FINISH" !!**  
 
 ![Option](images/option.png)
 
