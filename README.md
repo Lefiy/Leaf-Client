@@ -42,6 +42,31 @@ The following sites were used to create the design.
 - Vecteezy: https://www.vecteezy.com/
 - Pixlr: https://pixlr.com/
 
+## How to build LeafClient
+
+###Download LeafClient
+Download the ZIP file and extract leafclient-1.7.10 or leafclient-1.8.9 from it.  
+![Download](images/download.png)
+###Import Gradle Project
+Create an empty project with Eclipse. I do not know about IntelliJ IDEA. Sorry :(  
+Click "Import Project" and select gradle import.  
+![Import](images/import.png)
+Set "Project Root Directory" like this.  
+**AND CLICK "NEXT" DONT NOT CLICK "FINISH" !!**  
+![Import](images/root.png)
+Set "Import Options" like this.  
+Please use Java 8.  
+Gradle 4.7 will probably work with 8.  
+**AND CLICK "NEXT" DONT NOT CLICK "FINISH" !!**  
+![Option](images/option.png)
+If you get to a screen like this, you are good to go :)  
+Click "Finish".  
+![Finish](images/finish.png)
+###Add Libraries
+Perhaps this is how the error appears.  
+This is because you have not added the library.  
+Adding all of the above libraries will eliminate the error.  
+![Launch](images/launch.png)
 ## License
 
 *GNU GENERAL PUBLIC LICENSE 3.0*
