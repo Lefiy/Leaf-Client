@@ -44,7 +44,7 @@ The following sites were used to create the design.
 
 ## How to build Leaf Client
 
-### Download LeafClient
+### Download Leaf Client
 
 Download the ZIP file and extract leafclient-1.7.10 or leafclient-1.8.9 from it.  
 
