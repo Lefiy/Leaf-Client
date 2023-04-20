@@ -52,7 +52,8 @@ Download the ZIP file and extract leafclient-1.7.10 or leafclient-1.8.9 from it.
 
 ### Import Gradle Project
 
-Create an empty project with Eclipse. I do not know about IntelliJ IDEA. Sorry :(  
+Create an empty project with Eclipse.  
+I do not know about IntelliJ IDEA. Sorry :(  
 Click "Import Project" and select gradle import.  
 
 ![Import](images/import.png)
